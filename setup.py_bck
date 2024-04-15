@@ -6,18 +6,18 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-    name='ActiveCollab',
+    name='InstagramReelDownloader',
     version='1',
-    description="A Python module to interact with ActiveCollab",
+    description="Instagram reel downloader using Selenium WebDriver",
     long_description=long_description,
     long_description_content_type='text/markdown',
     readme = "README.md",
-    author="ankushtpss",
+    author="Ankushtpss",
     author_email="ankushkumartpss@gmail.com",
     packages = find_packages(),
     python_requires='>=3.8',
-    url='https://github.com/Ankushtpss/ActiveCollab',
-    keywords='ActiveCollab active collab',
+    url='https://github.com/Ankushtpss/InstagramReelDownloader',
+    keywords='Instagram Reel Downloader',
     install_requires=[
           'selenium',
           'webdriver_manager',
